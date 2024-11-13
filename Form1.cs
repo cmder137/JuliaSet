@@ -58,8 +58,8 @@ namespace JuliaSet
             savingDialog.OverwritePrompt = true;
             savingDialog.CheckPathExists = true;
 
-            savingDialog.Title = "Сохранение";
-            savingDialog.Filter = "PNG-Изображение|*.png|JPG-Изображение|*.jpg|GIF-Изображение|*.gif|Все файлы|*.*";
+            savingDialog.Title = "РЎРѕС…СЂР°РЅРµРЅРёРµ";
+            savingDialog.Filter = "PNG-РР·РѕР±СЂР°Р¶РµРЅРёРµ*.png|JPG-РР·РѕР±СЂР°Р¶РµРЅРёРµ*.jpg|GIF-РР·РѕР±СЂР°Р¶РµРЅРёРµ*.gif|Р’СЃРµ С„Р°Р№Р»С‹|*.*";
 
             if (savingDialog.ShowDialog() == DialogResult.OK)
             {
